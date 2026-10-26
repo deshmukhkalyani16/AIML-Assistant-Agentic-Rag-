@@ -1,0 +1,31 @@
+# Python virtual environments
+venv/
+venv_new/
+.venv/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local vector database
+chroma_db/
+
+# Private chat history and user data
+chats.json
+chats_*.json
+users.json
+
+# Generated results and experiments
+results.json
+test_set.json
+scratch/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
