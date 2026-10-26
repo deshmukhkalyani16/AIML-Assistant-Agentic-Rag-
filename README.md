@@ -1,4 +1,4 @@
-# AI/ML Paper Assistant (Agentic RAG)
+# AI/ML Assistant (Agentic RAG)
 
 An agentic RAG system built with LangGraph. It answers questions about five ML papers (Transformer, BERT, LoRA, QLoRA, RAG), decides when to search the papers vs. the web, grades its own retrieved chunks, rewrites weak queries, and checks its answers before returning them.
 
